@@ -2754,3 +2754,11 @@ footer {
         transition-duration: .01ms !important;
     }
 }
+
+body {
+    margin: 0;
+    padding-top: 80px;
+}
+main {
+    padding-top: 80px;
+}
