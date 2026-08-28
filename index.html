@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brisk Spaces | Luxury Interior Design Studio</title>
+
+    <meta
+        name="description"
+        content="Brisk Spaces creates luxury interiors that stir emotions and touch the heart."
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Material Symbols -->
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart,arrow_forward,arrow_back,menu,close,mail,phone,location_on,arrow_upward"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         INTRO / LOADING SCREEN
+    ====================================================== -->
+
+    <div class="intro-screen" id="introScreen">
+
+        <div class="intro-brand">
+
+            <div class="intro-logo" id="introLogo">
+                <img
+                    src="./images/briskspaces.png"
+                    alt="Brisk Spaces logo"
+                    min-height="45px"
+                >
+            </div>
+
+            <div class="intro-name" id="introName">
+                <span>BRISK</span>
+                <span>SPACES</span>
+            </div>
+
+        </div>
+
+        <div class="intro-line"></div>
+
+        <p class="intro-subtitle">
+            INTERIOR DESIGN STUDIO
+        </p>
+
+    </div>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <div class="header-container">
+
+        <!-- Stationary logo -->
+        <a href="#home" class="logo" aria-label="Brisk Spaces home">
+            <img
+                src="./images/blogo.png"
+                alt="Brisk Spaces symbol"
+            >
+        </a>
+
+        <!-- Floating header -->
+        <header class="floating-header" id="header">
+
+            <a href="#home" class="brand" aria-label="Brisk Spaces">
+
+                <span class="brand-text">
+                    <img
+                        src="./images/briskspaces.png"
+                        alt="Brisk Spaces"
+                    >
+                </span>
+
+            </a>
+
+
+            <!-- Desktop navigation -->
+            <nav class="desktop-nav">
+                <a href="#home">
+                    <span>01</span>
+                    Home
+                </a>
+                <a href="#about">
+                    <span>02</span>
+                    About
+                </a>
+
+                <a href="#services">
+                    <span>03</span>
+                    Services
+                </a>
+
+                <a href="#shop">
+                    <span>04</span>
+                    Shop
+                </a>
+
+                <a href="#contact">
+                    <span>05</span>
+                    Contact
+                </a>
+
+</nav>
+
+
+            <!-- Header actions -->
+            <div class="header-actions">
+
+                <button
+                    class="cart-button"
+                    id="cartButton"
+                    type="button"
+                    aria-label="Shopping cart"
+                >
+                    <span class="material-symbols-outlined">
+                        shopping_cart
+                    </span>
+
+                    <span
+                        class="cart-count"
+                        id="cartCount"
+                    >
+                        0
+                    </span>
+                </button>
+
+
+                <a
+                    href="https://www.instagram.com/briskspacestudio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="instagram-header"
+                    aria-label="Brisk Spaces on Instagram"
+                >
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+
+                <button
+                    class="menu-button"
+                    id="menuButton"
+                    type="button"
+                    aria-label="Open menu"
+                    aria-controls="mobileMenu"
+                >
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </button>
+
+            </div>
+
+        </header>
+
+    </div>
+
+
+    <!-- =====================================================
+         MOBILE MENU
+    ====================================================== -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu"
+        aria-hidden="true"
+    >
+
+        <button
+            class="mobile-close"
+            id="mobileClose"
+            type="button"
+            aria-label="Close menu"
+        >
+            <span class="material-symbols-outlined">
+                close
+            </span>
+        </button>
+
+
+        <div class="mobile-menu-number">
+            00 / MENU
+        </div>
+
+
+        <nav aria-label="Mobile navigation">
+
+            <a href="#home">
+                01
+                <span>Home</span>
+            </a>
+
+            <a href="#about">
+                02
+                <span>About</span>
+            </a>
+
+            <a href="#services">
+                03
+                <span>Services</span>
+            </a>
+
+            <a href="#shop">
+                04
+                <span>Shop</span>
+            </a>
+
+            <a href="#contact">
+                05
+                <span>Contact</span>
+            </a>
+
+        </nav>
+
+    </div>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main>
+
+        <!-- =================================================
+             HOME / HERO
+        ================================================== -->
+
+        <section class="hero page-section" id="home">
+
+    <!-- Background image -->
+    <div class="hero-image"></div>
+
+    <!-- Image overlay -->
+    <div class="hero-overlay"></div>
+
+    <!-- Section number -->
+    <div class="section-number hero-number">
+        01
+    </div>
+
+    <!-- Main hero text -->
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            INTERIOR DESIGN / LAGOS
+        </p>
+
+        <h1 class="text">
+            Spaces that <br>
+            <em>feel</em>
+            like you.
+        </h1>
+
+    </div>
+
+
+    <!-- =====================================================
+         STUDIO TITLE + CONSULTATION
+         Positioned directly underneath the image
+    ====================================================== -->
+
+    <div class="hero-bottom-content">
+
+        <div class="hero-studio-title">
+            <span>BRISK SPACES STUDIO</span>
+        </div>
+
+        <div class="hero-links">
+            <a href="./booking.html" class="line-link">
+                BOOK A CONSULTATION
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- =================================================
+             ABOUT
+        ================================================== -->
+
+        <section
+            class="about page-section"
+            id="about"
+        >
+
+            <div class="section-number">
+                02
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-intro">
+
+                    <p class="eyebrow">
+                        ABOUT BRISK SPACES
+                    </p>
+
+                    <h2>
+                        We believe
+                        <em>beautiful</em>
+                        spaces should mean something.
+                    </h2>
+
+                </div>
+
+
+                <div class="about-copy">
+
+                    <p class="lead">
+                        Brisk Spaces is an emerging interior design
+                        studio built around a simple belief: your
+                        environment should tell your story.
+                    </p>
+
+                    <p>
+                        We create interiors that balance beauty with
+                        everyday living. From quiet residential spaces
+                        to carefully considered commercial environments,
+                        our approach is rooted in proportion, texture,
+                        warmth and intention.
+                    </p>
+
+                    <p>
+                        We are still growing, still learning and still
+                        building — but every space receives the same
+                        level of care, curiosity and attention to detail.
+                    </p>
+
+                    <a
+                        href="#contact"
+                        class="dark-button"
+                    >
+                        Get in touch
+
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-statement">
+
+                <span class="statement-symbol">
+                    BS
+                </span>
+
+                <p>
+                    Creating luxury interiors that stir emotions
+                    and touch the heart.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SERVICES
+        ================================================== -->
+
+        <section
+            class="services page-section"
+            id="services"
+        >
+
+            <div class="section-number">
+                03
+            </div>
+
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    WHAT WE DO
+                </p>
+
+                <h2>
+                    Designed with
+                    <em>intention.</em>
+                </h2>
+
+                <p>
+                    A considered approach to interiors, from the first
+                    conversation to the final detail.
+                </p>
+
+            </div>
+
+
+            <div class="services-list">
+
+                <!-- Service 01 -->
+                <article class="service-card">
+
+                    <span class="service-number">
+                        01
+                    </span>
+
+                    <div class="service-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        Interior Design
+                    </h3>
+
+                    <p>
+                        Complete interior concepts developed around
+                        your lifestyle, personality and space.
+                    </p>
+
+                    <a href="#contact">
+                        Discover service
+
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span>
+                    </a>
+
+                </article>
+
+
+                <!-- Service 02 -->
+                <article class="service-card">
+
+                    <span class="service-number">
+                        02
+                    </span>
+
+                    <div class="service-icon">
+                        ◈
+                    </div>
+
+                    <h3>
+                        Space Planning
+                    </h3>
+
+                    <p>
+                        Intelligent layouts that make rooms feel
+                        purposeful, comfortable and naturally connected.
+                    </p>
+
+                    <a href="#contact">
+                        Discover service
+
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span>
+                    </a>
+
+                </article>
+
+
+                <!-- Service 03 -->
+                <article class="service-card">
+
+                    <span class="service-number">
+                        03
+                    </span>
+
+                    <div class="service-icon">
+                        ⌂
+                    </div>
+
+                    <h3>
+                        Home Styling
+                    </h3>
+
+                    <p>
+                        Furniture, artwork, lighting and finishing
+                        touches curated to give your home character.
+                    </p>
+
+                    <a href="#contact">
+                        Discover service
+
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span>
+                    </a>
+
+                </article>
+
+
+                <!-- Service 04 -->
+                <article class="service-card">
+
+                    <span class="service-number">
+                        04
+                    </span>
+
+                    <div class="service-icon">
+                        ∿
+                    </div>
+
+                    <h3>
+                        Consultation
+                    </h3>
+
+                    <p>
+                        Have a space in mind? Start with a conversation
+                        and let us help shape the possibilities.
+                    </p>
+
+                    <a
+                        href="./booking.html"
+                        class="studio-consultation"
+                    >
+                        Book a consultation
+
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span>
+                    </a>
+
+                </article>
+
+            </div>
+
+
+            <div class="services-bottom">
+
+                <p>
+                    Have a project in mind?
+                </p>
+
+                <a
+                    href="#contact"
+                    class="wine-outline-button"
+                >
+                    Get in touch
+
+                    <span class="material-symbols-outlined">
+                        arrow_forward
+                    </span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SHOP
+        ================================================== -->
+
+        <section
+            class="shop page-section"
+            id="shop"
+        >
+
+            <div class="section-number">
+                04
+            </div>
+
+
+            <div class="section-heading light">
+
+                <p class="eyebrow">
+                    THE BRISK EDIT
+                </p>
+
+                <h2>
+                    Pieces with
+                    <em>presence.</em>
+                </h2>
+
+                <p>
+                    A small collection of objects selected to bring
+                    personality into your space.
+                </p>
+
+            </div>
+
+
+            <div class="shop-grid">
+
+                <!-- Product 01 -->
+                <article class="product-card">
+
+                    <div class="product-image product-one">
+                        <span>
+                            OBJECT 01
+                        </span>
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Sculptural Vase
+                        </h3>
+
+                        <p>
+                            ₦85,000
+                        </p>
+
+                        <button
+                            class="add-cart"
+                            type="button"
+                            data-product="Sculptural Vase"
+                        >
+                            Add to collection
+
+                            <span class="material-symbols-outlined">
+                                shopping_cart
+                            </span>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 02 -->
+                <article class="product-card">
+
+                    <div class="product-image product-two">
+                        <span>
+                            OBJECT 02
+                        </span>
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Accent Chair
+                        </h3>
+
+                        <p>
+                            ₦320,000
+                        </p>
+
+                        <button
+                            class="add-cart"
+                            type="button"
+                            data-product="Accent Chair"
+                        >
+                            Add to collection
+
+                            <span class="material-symbols-outlined">
+                                shopping_cart
+                            </span>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 03 -->
+                <article class="product-card">
+
+                    <div class="product-image product-three">
+                        <span>
+                            OBJECT 03
+                        </span>
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Statement Lamp
+                        </h3>
+
+                        <p>
+                            ₦145,000
+                        </p>
+
+                        <button
+                            class="add-cart"
+                            type="button"
+                            data-product="Statement Lamp"
+                        >
+                            Add to collection
+
+                            <span class="material-symbols-outlined">
+                                shopping_cart
+                            </span>
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CONTACT
+        ================================================== -->
+
+        <section
+            class="contact page-section"
+            id="contact"
+        >
+
+            <div class="section-number">
+                05
+            </div>
+
+
+            <div class="contact-grid">
+
+                <div class="contact-intro">
+
+                    <p class="eyebrow">
+                        LET'S CREATE SOMETHING
+                    </p>
+
+                    <h2>
+                        Tell us about
+                        your <em>space.</em>
+                    </h2>
+
+                    <p>
+                        Whether you have a fully formed idea or simply
+                        know that your space needs something different,
+                        we'd love to hear from you.
+                    </p>
+
+                </div>
+
+
+                <form
+                    class="contact-form"
+                    id="contactForm"
+                >
+
+                    <div class="form-row">
+
+                        <label>
+                            Your name
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                                autocomplete="name"
+                                required
+                            >
+                        </label>
+
+
+                        <label>
+                            Email address
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                autocomplete="email"
+                                required
+                            >
+                        </label>
+
+                    </div>
+
+
+                    <label>
+                        Message
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Tell us a little about your project..."
+                            required
+                        ></textarea>
+
+                    </label>
+
+
+                    <button
+                        type="submit"
+                        class="submit-button"
+                    >
+                        Send enquiry
+
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span>
+                    </button>
+
+
+                    <p
+                        class="form-status"
+                        id="formStatus"
+                        aria-live="polite"
+                    ></p>
+
+                </form>
+
+            </div>
+
+
+            <!-- Contact details -->
+            <div class="contact-details">
+
+                <div class="contact-heading">
+
+                    <span class="contact-symbol">
+                        BS
+                    </span>
+
+                    <h3>
+                        Get in touch.
+                    </h3>
+
+                </div>
+
+
+                <div class="contact-links">
+
+                    <a href="tel:08145100847">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <span>
+                            08145100847
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="https://wa.me/2348145100847"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                        <span>
+                            WhatsApp
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.instagram.com/briskspacestudio"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                        <span>
+                            Instagram
+                        </span>
+
+                    </a>
+
+
+                    <a href="mailto:BriskSpaces@gmail.com">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <span>
+                            BriskSpaces@gmail.com
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         CART PANEL
+    ====================================================== -->
+
+    <aside
+        class="cart-panel"
+        id="cartPanel"
+        aria-label="Shopping cart"
+    >
+
+        <div class="cart-header">
+
+            <h3>
+                Your collection
+            </h3>
+
+            <button
+                id="closeCart"
+                type="button"
+                aria-label="Close cart"
+            >
+                <span class="material-symbols-outlined">
+                    close
+                </span>
+            </button>
+
+        </div>
+
+
+        <div
+            class="cart-items"
+            id="cartItems"
+        >
+            <p class="empty-cart">
+                Your collection is currently empty.
+            </p>
+        </div>
+
+
+        <div class="cart-footer">
+
+            <a href="#contact">
+
+                Enquire about selected pieces
+
+                <span class="material-symbols-outlined">
+                    arrow_forward
+                </span>
+
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <div
+        class="cart-overlay"
+        id="cartOverlay"
+    ></div>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <div class="footer-brand">
+
+            <span class="footer-symbol">
+                BS
+            </span>
+
+            <h2>
+                BRISK SPACES
+            </h2>
+
+            <p>
+                Creating luxury interiors that stir emotions
+                and touch the heart.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <div>
+
+                <span>
+                    EXPLORE
+                </span>
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#shop">Shop</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    CONTACT
+                </span>
+
+                <a href="tel:08145100847">
+                    <i class="fa-solid fa-phone"></i>
+                    08145100847
+                </a>
+
+                <a
+                    href="https://wa.me/2348145100847"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+
+                <a
+                    href="https://www.instagram.com/briskspacestudio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </a>
+
+                <a href="mailto:BriskSpaces@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    BriskSpaces@gmail.com
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 BRISK SPACES
+            </span>
+
+            <span>
+                INTERIORS / OBJECTS / STORIES
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         EMAILJS
+    ====================================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Main JavaScript -->
+    <script src="./style.js"></script>
+
+</body>
+</html>
