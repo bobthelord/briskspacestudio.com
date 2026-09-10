@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Brisk Spaces — luxury interior design studio in Lagos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart,arrow_forward,menu,close,mail,phone,location_on">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="./style.css">
+<title>Shop | Brisk Spaces</title>
+</head>
+<body>
+<div class="header-container">
+<a aria-label="Brisk Spaces home" class="logo" href="index.html"><img src="./images/blogo.png" alt="Brisk Spaces symbol"></a>
+<header class="floating-header" id="header">
+<a aria-label="Brisk Spaces" class="brand" href="index.html"><span class="brand-text"><img src="./images/briskspaces.png" alt="Brisk Spaces"></span></a>
+<nav class="desktop-nav" aria-label="Main navigation">
+<a href="index.html"><span>01</span>Home</a>
+<a href="about.html"><span>02</span>About</a>
+<a href="services.html"><span>03</span>Services</a>
+<a href="shop.html"><span>04</span>Shop</a>
+<a href="contact.html"><span>05</span>Contact</a>
+</nav>
+<div class="header-actions">
+<button aria-label="Shopping cart" class="cart-button" id="cartButton" type="button"><span class="material-symbols-outlined">shopping_cart</span><span class="cart-count" id="cartCount">0</span></button>
+<a aria-label="Instagram" class="instagram-header" href="https://www.instagram.com/briskspacestudio" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+<button aria-controls="mobileMenu" aria-expanded="false" aria-label="Open menu" class="menu-button" id="menuButton" type="button"><span class="material-symbols-outlined">menu</span></button>
+</div>
+</header>
+</div>
+<div aria-hidden="true" class="mobile-menu" id="mobileMenu">
+<button aria-label="Close menu" class="mobile-close" id="mobileClose" type="button"><span class="material-symbols-outlined">close</span></button>
+<div class="mobile-menu-number">00 / MENU</div>
+<nav aria-label="Mobile navigation">
+<a href="index.html">01 <span>Home</span></a><a href="about.html">02 <span>About</span></a><a href="services.html">03 <span>Services</span></a><a href="shop.html">04 <span>Shop</span></a><a href="contact.html">05 <span>Contact</span></a>
+</nav></div>
+<main><section class="shop page-section"><div class="section-number">04</div><div class="section-heading light"><p class="eyebrow">THE BRISK EDIT</p><h2>Objects with <em>character.</em></h2><p>Curated pieces for interiors that feel collected rather than decorated.</p></div><div class="shop-grid"><article class="product-card"><div class="product-image product-one"><span>SCULPTURAL OBJECT</span></div><div class="product-info"><h3>Sculptural Vase</h3><p>₦85,000</p><button class="add-cart" data-product="Sculptural Vase — ₦85,000" type="button">ADD TO COLLECTION <span class="material-symbols-outlined">add</span></button></div></article><article class="product-card"><div class="product-image product-two"><span>SEATING</span></div><div class="product-info"><h3>Accent Chair</h3><p>₦320,000</p><button class="add-cart" data-product="Accent Chair — ₦320,000" type="button">ADD TO COLLECTION <span class="material-symbols-outlined">add</span></button></div></article><article class="product-card"><div class="product-image product-three"><span>LIGHTING</span></div><div class="product-info"><h3>Statement Lamp</h3><p>₦145,000</p><button class="add-cart" data-product="Statement Lamp — ₦145,000" type="button">ADD TO COLLECTION <span class="material-symbols-outlined">add</span></button></div></article></div></section></main><aside aria-label="Shopping cart" class="cart-panel" id="cartPanel"><div class="cart-header"><h3>Your collection</h3><button aria-label="Close cart" id="closeCart" type="button"><span class="material-symbols-outlined">close</span></button></div><div class="cart-items" id="cartItems"><p class="empty-cart">Your collection is currently empty.</p></div><div class="cart-footer"><a href="contact.html">Enquire about selected pieces <span class="material-symbols-outlined">arrow_forward</span></a></div></aside><div class="cart-overlay" id="cartOverlay"></div><footer><div class="footer-brand"><span class="footer-symbol">BS</span><h2>BRISK SPACES</h2><p>Creating luxury interiors that stir emotions and touch the heart.</p></div><div class="footer-links"><div><span>EXPLORE</span><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="shop.html">Shop</a><a href="contact.html">Contact</a></div><div><span>CONTACT</span><a href="tel:08145100847"><i class="fa-solid fa-phone"></i>08145100847</a><a href="https://wa.me/2348145100847" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a><a href="https://www.instagram.com/briskspacestudio" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i>Instagram</a><a href="mailto:BriskSpaces@gmail.com"><i class="fa-solid fa-envelope"></i>BriskSpaces@gmail.com</a></div></div><div class="footer-bottom"><span>© 2026 BRISK SPACES</span><span>INTERIORS / OBJECTS / STORIES</span></div></footer><script src="./style.js"></script>
+</body>
+</html>
